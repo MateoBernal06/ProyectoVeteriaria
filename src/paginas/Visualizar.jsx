@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 import Mensaje from '../componets/Alertas/Mensaje';
-import ModalTratamiento from '../componets/Modals/ModalTratamientos.jsx';
+import ModalTratamiento from '../componets/modals/ModalTratamientos';
 import TratamientosContext from '../context/TratamientosProvider';
 import TablaTratamientos from '../componets/TablaTratamientos';
 import AuthContext from '../context/AuthProvider';
